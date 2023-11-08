@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 id="titulo">Task Manager</h1>
+    <div id="flex">
+        <div>
+            <h2>Create Task</h2>
+            <input type="text" id="taskText" placeholder="Enter task">
+            <button id="create" onclick="createTask()">Create Task</button>
+        </div>
+        <div id="to-do">
+            <h2>To Do</h2>
+            <div id="todoContainer"></div>
+        </div>
+        <div>
+            <h2>Doing</h2>
+            <div id="doingContainer"></div>
+        </div>
+        <div>
+            <h2>Done</h2>
+            <div id="doneContainer"></div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
